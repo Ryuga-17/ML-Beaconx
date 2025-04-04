@@ -2,3 +2,10 @@ Flask
 requests
 apscheduler
 gunicorn
+numpy 
+pandas
+torch
+pickle
+logging
+tensorflow
+scikit-learn
