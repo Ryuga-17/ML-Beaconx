@@ -1,7 +1,6 @@
 Flask
 requests
 apscheduler
-pickle
 logging
 tensorflow
 scikit-learn
@@ -9,3 +8,4 @@ gunicorn==23.0.0
 numpy==2.2.4
 pandas==2.2.3
 torch==2.6.0
+python==3.10.12
