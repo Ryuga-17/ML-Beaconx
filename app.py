@@ -67,10 +67,10 @@ try:
     with open('knn_model.pkl', 'rb') as f:
         kmeans_eq = pickle.load(f)
 
-   autoencoder = Autoencoder(input_dim=4, hidden_dim=16, latent_dim=8)
-   autoencoder.load_state_dict(torch.load("autoencoder2.pth", map_location=torch.device('cpu')))
-   autoencoder.eval()  # Put model in evaluation mode
-
+    autoencoder = Autoencoder(input_dim=4, hidden_dim=16, latent_dim=8)
+    autoencoder.load_state_dict(torch.load("autoencoder2.pth", map_location=torch.device('cpu')))
+    autoencoder.eval()  # Put model in evaluation mode
+ 
     # Load PyTorch Autoencoder Correctly
  # Set PyTorch model to evaluation mode
 
