@@ -10,4 +10,3 @@ numpy
 pandas
 torch
 joblib
-pickle
